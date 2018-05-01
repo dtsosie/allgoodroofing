@@ -142,6 +142,7 @@ h2.title_call {
 div#content div.main div.left-col ul li {list-style: none; margin-top: 10px;  }
 li.addr { background: url(cssimg/addr.jpg) left center no-repeat;  padding-left: 50px!important; }
 li.phone { background: url(cssimg/phn.jpg) left center no-repeat;  padding-left: 50px!important; }
+li.phone a { text-decoration: none; color: white; }
 li.email { background: url(cssimg/btn_emailus.jpg) 15px 2px no-repeat; padding: 0!important;}
 li.email a {display: block; text-indent: -10000px; height: 45px;}
 
