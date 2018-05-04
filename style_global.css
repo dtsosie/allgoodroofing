@@ -111,7 +111,7 @@ div#hero .right-col p { color: white; font-size: 12pt; padding: 0 10px;}
 div#hero div.right-col .inner {  margin: 0 0 0 0;  padding: 0px 10px;}
 
 div#hero .inner { background: url(cssimg/hero_inner.jpg) 0 0 no-repeat; height: 115px;}
-div#hero table { width: 100%;}
+div#hero table { width: 100%; padding-top: 10px; }
 div#hero table td, div#hero table th {}
 div#hero table th, div#hero table th a { color: #C08400; text-transform: uppercase; font-size: 1.1em; font-weight: normal; padding: 0px 0;}
 div#hero table td, div#hero table td a {color: #DFC17F; padding: 5px 0; font-size: 1.1em;}
