@@ -51,6 +51,7 @@ div#header h1 {
   background: url(cssimg/logo.jpg) 0 31px no-repeat;
   font-weight: normal; 
   width: 200px; 
+  margin-left: 1em;
   float: left; 
 }
 div#header h1 a { font-size: 2.3em;   text-indent: -100000px; display: block; height: 85px;}
@@ -158,7 +159,6 @@ border: none;
 } 
 div#footer {
   position: relative;
-  height: 120px;
   bottom: -15px;
   background: url(cssimg/footer.jpg) top left repeat-x;
   padding: 10px;
