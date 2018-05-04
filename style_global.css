@@ -57,8 +57,6 @@ div#header h1 a { font-size: 2.3em;   text-indent: -100000px; display: block; he
 
 div#header .inner { float: right; width: 500px; height: auto; }
 
-
-
 div#header .tagline { background: url(cssimg/tagline_estimate.jpg) center right no-repeat; height: 42px; padding: 5px; text-indent: -100000px; margin-right: 15px;}
 
 ul#top-nav {margin: 0 -60px 0 -121px; position: absolute; height: 70px;}
@@ -69,36 +67,30 @@ li.work span {text-indent: -10000px;}
 ul#top-nav li a:hover {}
 
 li.home, li.home a { background: url(cssimg/top-nav.jpg) -3px 0 no-repeat; width: 71px;  text-indent: -100000px;}
-li.home a:hover { background: url(cssimg/top-nav.jpg) -3px -35px no-repeat; width: 71px;}
 
+li.work a { background: url(cssimg/top-nav.jpg) -83px -35px no-repeat; }
 li.work { background: url(cssimg/top-nav.jpg) -83px 0 no-repeat; width: 96px; }
 li.work a {text-indent: -100000px;}
 
-#top-nav li.work:hover a, li.sfHover a { background: url(cssimg/top-nav.jpg) -83px -35px no-repeat;}
+li.work ul { top: 55px!important; }
+li.work ul a { display: inline!important; color: #BF8106!important; }
 
 li.testimonials, li.testimonials a { background: url(cssimg/top-nav.jpg) -190px 0 no-repeat; width: 120px;  text-indent: -100000px;}
-li.testimonials a:hover { background: url(cssimg/top-nav.jpg) -190px -35px no-repeat; width: 120px;}
 
 li.CReviews, li.CReviews a { background: url(cssimg/Reviews.png) no-repeat; width: 175px; height:30px;}
-li.CReviews a:hover { background: url(cssimg/Reviewshover.png) no-repeat; width: 175px;}
 
 li.contact, li.contact a { background: url(cssimg/top-nav.jpg) -320px 0 no-repeat; width: 114px;  text-indent: -100000px;}
-li.contact a:hover { background: url(cssimg/top-nav.jpg) -320px -35px no-repeat; width: 114px;}
 
-#top-nav li:hover a, #top-nav li.sfHover a {color: #BF8106;}
-
-#top-nav li:hover ul a, #top-nav li.sfHover ul a { text-indent: 0!important; width: auto; }
-#top-nav li:hover {	visibility:		inherit; /* fixes IE7 'sticky bug' */}
-#top-nav li:hover , #top-nav li.sfHover {}
 #top-nav ul {
-  height: 35px;
   width: 530px;
   position: absolute;
   top: -999em;
   left: -75px;
+  background-color: #0F2028;
+  border: 5px solid #0F2028;
 }
 #top-nav li:hover ul,#top-nav li.sfHover ul {  top: 55px; }
-#top-nav ul li { background-color: #0F2028; height: 35px; margin: 0; }
+#top-nav ul li { background-color: #0F2028; margin: 0; }
 #top-nav ul li a { background: transparent!important; height: 20px!important; font-size: 1em; margin: 0!important; padding: 10px 8px 0 12px;  margin: 0 5px; }
 
 
