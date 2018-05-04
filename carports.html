@@ -39,16 +39,6 @@ $.fn.hoverClass = function(c) {
         );
     });
 };
-$(document).ready(function(){
-   $("ul#top-nav li").hover(
-        function(){ $("ul", this).fadeIn("fast"); }, 
-        function() {$("ul", this).hide(); } 
-    );
-    if (document.all) {
-        $("ul#top-nav li").hoverClass ("sfHover");
-    }
-});
-
 </script>
 
 <script type="text/javascript"> 
