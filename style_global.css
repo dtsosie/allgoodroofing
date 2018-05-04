@@ -45,7 +45,7 @@ img.logoleak {position: absolute; top: 35px; margin-left: -280px;}
 }
 
 
-div#header { text-align: left; height: 153px; }
+div#header { text-align: left; height: 135px; }
 div#header h1 { 
   height: 115px;
   background: url(cssimg/logo.jpg) 0 31px no-repeat;
