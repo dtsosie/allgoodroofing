@@ -60,7 +60,7 @@ div#header .inner { float: right; width: 500px; height: auto; }
 
 div#header .tagline { background: url(cssimg/tagline_estimate.jpg) center right no-repeat; height: 42px; padding: 5px; text-indent: -100000px; margin-right: 15px;}
 
-ul#top-nav {margin: 0 -60px 0 -121px; position: absolute; height: 70px;}
+ul#top-nav {margin: 0 -60px 0 -121px; position: absolute; height: 70px; width: 100%; }
 ul#top-nav li {float: left; list-style: none; margin: 20px 0 0 10px;}
 ul#top-nav li a, ul#top-nav li span { display: block; height: 35px;}
 li.work span {text-indent: -10000px;}
