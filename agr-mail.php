@@ -18,7 +18,6 @@ try {
     //Recipients
     $mail->setFrom('agr@allgoodroofing.com');     // Add a recipient
     $mail->addAddress('agr@allgoodroofing.com');     // Add a recipient
-    $mail->addAddress('daniel.tsosie@gmail.com');     // Add a recipient
 
     //Content
     $mail->isHTML(false);                                  // Set email format to HTML
